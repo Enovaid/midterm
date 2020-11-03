@@ -15,6 +15,10 @@
 		FD9E8180253989F5004EC12C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9E817E253989F5004EC12C /* LaunchScreen.storyboard */; };
 		FD9E818B253989F5004EC12C /* midtermTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E818A253989F5004EC12C /* midtermTests.swift */; };
 		FD9E8196253989F5004EC12C /* midtermUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E8195253989F5004EC12C /* midtermUITests.swift */; };
+		FD9E81A725398B07004EC12C /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E81A625398B07004EC12C /* customCell.swift */; };
+		FD9E81AC25398BDB004EC12C /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E81AB25398BDB004EC12C /* Alarm.swift */; };
+		FD9E81B125398CD9004EC12C /* EditAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E81B025398CD9004EC12C /* EditAlarmVC.swift */; };
+		FD9E81B625398FD7004EC12C /* NewAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9E81B525398FD7004EC12C /* NewAlarmVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		FD9E8191253989F5004EC12C /* midtermUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = midtermUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9E8195253989F5004EC12C /* midtermUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = midtermUITests.swift; sourceTree = "<group>"; };
 		FD9E8197253989F5004EC12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9E81A625398B07004EC12C /* customCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
+		FD9E81AB25398BDB004EC12C /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		FD9E81B025398CD9004EC12C /* EditAlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAlarmVC.swift; sourceTree = "<group>"; };
+		FD9E81B525398FD7004EC12C /* NewAlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAlarmVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				FD9E817C253989F5004EC12C /* Assets.xcassets */,
 				FD9E817E253989F5004EC12C /* LaunchScreen.storyboard */,
 				FD9E8181253989F5004EC12C /* Info.plist */,
+				FD9E81A625398B07004EC12C /* customCell.swift */,
+				FD9E81AB25398BDB004EC12C /* Alarm.swift */,
+				FD9E81B025398CD9004EC12C /* EditAlarmVC.swift */,
+				FD9E81B525398FD7004EC12C /* NewAlarmVC.swift */,
 			);
 			path = midterm;
 			sourceTree = "<group>";
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9E81B625398FD7004EC12C /* NewAlarmVC.swift in Sources */,
 				FD9E8178253989F4004EC12C /* ViewController.swift in Sources */,
 				FD9E8174253989F4004EC12C /* AppDelegate.swift in Sources */,
+				FD9E81B125398CD9004EC12C /* EditAlarmVC.swift in Sources */,
+				FD9E81AC25398BDB004EC12C /* Alarm.swift in Sources */,
+				FD9E81A725398B07004EC12C /* customCell.swift in Sources */,
 				FD9E8176253989F4004EC12C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
